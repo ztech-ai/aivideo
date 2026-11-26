@@ -1,0 +1,446 @@
+{
+  "method": "Mono 12 kHz speech-band normalized cross-correlations per independent source line, waveform start from HyperFrames data-start. Background score tested against final mix after voice subtraction. FFmpeg stereo EBU R128 and silencedetect.",
+  "completed_projects": 4,
+  "projects": {
+    "20260929赚钱的第一性原理": {
+      "file": "20260929赚钱的第一性原理/成片.mp4",
+      "sha256": "13761872b8513b75cfaea821dd5e49483258c3ad7d0b4840cc5f0c96d2c01b89",
+      "duration_s": 53.25,
+      "codec": "aac",
+      "channels": 2,
+      "sample_rate": 48000,
+      "integrated_lufs": -14.06,
+      "true_peak_dbtp": -2.67,
+      "silence_threshold_dbfs": -52,
+      "silences_1p4s_and_longer": [],
+      "voice_count": 10,
+      "minimum_line_correlation": 0.97872,
+      "max_absolute_speech_lag_ms": 0.0,
+      "lines": [
+        {
+          "line": "s01l01",
+          "reference_start_s": 0.167,
+          "lag_ms": 0.0,
+          "correlation": 0.98895,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.3913
+        },
+        {
+          "line": "s02l01",
+          "reference_start_s": 2.208,
+          "lag_ms": 0.0,
+          "correlation": 0.98647,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4103
+        },
+        {
+          "line": "s02l02",
+          "reference_start_s": 8.208,
+          "lag_ms": 0.0,
+          "correlation": 0.99439,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4117
+        },
+        {
+          "line": "s03l01",
+          "reference_start_s": 15.708,
+          "lag_ms": 0.0,
+          "correlation": 0.9858,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4121
+        },
+        {
+          "line": "s04l01",
+          "reference_start_s": 20.833,
+          "lag_ms": 0.0,
+          "correlation": 0.99291,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4129
+        },
+        {
+          "line": "s05l01",
+          "reference_start_s": 26.458,
+          "lag_ms": 0.0,
+          "correlation": 0.99038,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4134
+        },
+        {
+          "line": "s05l02",
+          "reference_start_s": 29.458,
+          "lag_ms": 0.0,
+          "correlation": 0.97872,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4035
+        },
+        {
+          "line": "s05l03",
+          "reference_start_s": 32.583,
+          "lag_ms": 0.0,
+          "correlation": 0.98828,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4128
+        },
+        {
+          "line": "s06l01",
+          "reference_start_s": 40.542,
+          "lag_ms": 0.0,
+          "correlation": 0.99121,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4109
+        },
+        {
+          "line": "s06l02",
+          "reference_start_s": 47.75,
+          "lag_ms": 0.0,
+          "correlation": 0.99223,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4117
+        }
+      ],
+      "music": {
+        "source": "assets/audio/music.mp3",
+        "lag_ms": 0.0,
+        "residual_correlation": 0.99099,
+        "declared_gain": 0.2553,
+        "fitted_gain": 0.2545
+      },
+      "passed": true,
+      "findings": []
+    },
+    "20261116管住自己向别人倾诉表白的欲望": {
+      "file": "20261116管住自己向别人倾诉表白的欲望/成片.mp4",
+      "sha256": "0b5b2cfb8d22a7831f1b3d954fb7eacd37605522589975e1f69b9a96516d2479",
+      "duration_s": 58.125,
+      "codec": "aac",
+      "channels": 2,
+      "sample_rate": 48000,
+      "integrated_lufs": -14.02,
+      "true_peak_dbtp": -2.12,
+      "silence_threshold_dbfs": -52,
+      "silences_1p4s_and_longer": [],
+      "voice_count": 9,
+      "minimum_line_correlation": 0.98281,
+      "max_absolute_speech_lag_ms": 0.0,
+      "lines": [
+        {
+          "line": "s01l01",
+          "reference_start_s": 0.167,
+          "lag_ms": 0.0,
+          "correlation": 0.99554,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4167
+        },
+        {
+          "line": "s02l01",
+          "reference_start_s": 3.0,
+          "lag_ms": 0.0,
+          "correlation": 0.99044,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4128
+        },
+        {
+          "line": "s02l02",
+          "reference_start_s": 10.417,
+          "lag_ms": 0.0,
+          "correlation": 0.99513,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.416
+        },
+        {
+          "line": "s03l01",
+          "reference_start_s": 18.375,
+          "lag_ms": 0.0,
+          "correlation": 0.99037,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4061
+        },
+        {
+          "line": "s03l02",
+          "reference_start_s": 26.458,
+          "lag_ms": 0.0,
+          "correlation": 0.99564,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4148
+        },
+        {
+          "line": "s04l01",
+          "reference_start_s": 31.542,
+          "lag_ms": 0.0,
+          "correlation": 0.98281,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4066
+        },
+        {
+          "line": "s05l01",
+          "reference_start_s": 37.583,
+          "lag_ms": 0.0,
+          "correlation": 0.99051,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4135
+        },
+        {
+          "line": "s05l02",
+          "reference_start_s": 42.75,
+          "lag_ms": 0.0,
+          "correlation": 0.99342,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4101
+        },
+        {
+          "line": "s06l01",
+          "reference_start_s": 47.542,
+          "lag_ms": 0.0,
+          "correlation": 0.98602,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4126
+        }
+      ],
+      "music": {
+        "source": "assets/audio/music.mp3",
+        "lag_ms": 0.0,
+        "residual_correlation": 0.99188,
+        "declared_gain": 0.2424,
+        "fitted_gain": 0.2416
+      },
+      "passed": true,
+      "findings": []
+    },
+    "20261118什么叫和而不同": {
+      "file": "20261118什么叫和而不同/成片.mp4",
+      "sha256": "9f107986ca001a94dc5f46632369f9c554f0ffe87ae7309ec6071159ffa98541",
+      "duration_s": 64.208,
+      "codec": "aac",
+      "channels": 2,
+      "sample_rate": 48000,
+      "integrated_lufs": -14.07,
+      "true_peak_dbtp": -2.29,
+      "silence_threshold_dbfs": -52,
+      "silences_1p4s_and_longer": [],
+      "voice_count": 11,
+      "minimum_line_correlation": 0.98063,
+      "max_absolute_speech_lag_ms": 0.0,
+      "lines": [
+        {
+          "line": "s01l01",
+          "reference_start_s": 0.167,
+          "lag_ms": 0.0,
+          "correlation": 0.99163,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4099
+        },
+        {
+          "line": "s02l01",
+          "reference_start_s": 4.125,
+          "lag_ms": 0.0,
+          "correlation": 0.99237,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4141
+        },
+        {
+          "line": "s02l02",
+          "reference_start_s": 12.0,
+          "lag_ms": 0.0,
+          "correlation": 0.99171,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4166
+        },
+        {
+          "line": "s03l01",
+          "reference_start_s": 17.875,
+          "lag_ms": 0.0,
+          "correlation": 0.98063,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4034
+        },
+        {
+          "line": "s03l02",
+          "reference_start_s": 24.792,
+          "lag_ms": 0.0,
+          "correlation": 0.99075,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4086
+        },
+        {
+          "line": "s04l01",
+          "reference_start_s": 31.125,
+          "lag_ms": 0.0,
+          "correlation": 0.9888,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4176
+        },
+        {
+          "line": "s04l02",
+          "reference_start_s": 35.792,
+          "lag_ms": 0.0,
+          "correlation": 0.99128,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4095
+        },
+        {
+          "line": "s05l01",
+          "reference_start_s": 39.25,
+          "lag_ms": 0.0,
+          "correlation": 0.99104,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4119
+        },
+        {
+          "line": "s05l02",
+          "reference_start_s": 43.833,
+          "lag_ms": 0.0,
+          "correlation": 0.98823,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4086
+        },
+        {
+          "line": "s06l01",
+          "reference_start_s": 49.208,
+          "lag_ms": 0.0,
+          "correlation": 0.9899,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.41
+        },
+        {
+          "line": "s06l02",
+          "reference_start_s": 57.0,
+          "lag_ms": 0.0,
+          "correlation": 0.99126,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4138
+        }
+      ],
+      "music": {
+        "source": "assets/audio/music.mp3",
+        "lag_ms": 0.0,
+        "residual_correlation": 0.99255,
+        "declared_gain": 0.238,
+        "fitted_gain": 0.2372
+      },
+      "passed": true,
+      "findings": []
+    },
+    "20261122为什么一个人清醒一见人就乱": {
+      "file": "20261122为什么一个人清醒一见人就乱/成片.mp4",
+      "sha256": "6b966d293e7e6c76540380f040d0f1827a2af483609e707379fb300e43422691",
+      "duration_s": 66.083,
+      "codec": "aac",
+      "channels": 2,
+      "sample_rate": 48000,
+      "integrated_lufs": -13.98,
+      "true_peak_dbtp": -2.59,
+      "silence_threshold_dbfs": -52,
+      "silences_1p4s_and_longer": [],
+      "voice_count": 12,
+      "minimum_line_correlation": 0.97919,
+      "max_absolute_speech_lag_ms": 0.0,
+      "lines": [
+        {
+          "line": "s01l01",
+          "reference_start_s": 0.167,
+          "lag_ms": 0.0,
+          "correlation": 0.98937,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4236
+        },
+        {
+          "line": "s02l01",
+          "reference_start_s": 3.375,
+          "lag_ms": 0.0,
+          "correlation": 0.98162,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4051
+        },
+        {
+          "line": "s02l02",
+          "reference_start_s": 10.0,
+          "lag_ms": 0.0,
+          "correlation": 0.98348,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4113
+        },
+        {
+          "line": "s02l03",
+          "reference_start_s": 16.0,
+          "lag_ms": 0.0,
+          "correlation": 0.98155,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4136
+        },
+        {
+          "line": "s03l01",
+          "reference_start_s": 19.917,
+          "lag_ms": 0.0,
+          "correlation": 0.98321,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4099
+        },
+        {
+          "line": "s03l02",
+          "reference_start_s": 26.792,
+          "lag_ms": 0.0,
+          "correlation": 0.99534,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4144
+        },
+        {
+          "line": "s04l01",
+          "reference_start_s": 32.458,
+          "lag_ms": 0.0,
+          "correlation": 0.97933,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4088
+        },
+        {
+          "line": "s04l02",
+          "reference_start_s": 36.75,
+          "lag_ms": 0.0,
+          "correlation": 0.98835,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.416
+        },
+        {
+          "line": "s04l03",
+          "reference_start_s": 40.708,
+          "lag_ms": 0.0,
+          "correlation": 0.97919,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4039
+        },
+        {
+          "line": "s05l01",
+          "reference_start_s": 43.75,
+          "lag_ms": 0.0,
+          "correlation": 0.98184,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4088
+        },
+        {
+          "line": "s05l02",
+          "reference_start_s": 49.292,
+          "lag_ms": 0.0,
+          "correlation": 0.99455,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.4122
+        },
+        {
+          "line": "s06l01",
+          "reference_start_s": 55.792,
+          "lag_ms": 0.0,
+          "correlation": 0.9814,
+          "declared_gain": 1.0,
+          "fitted_gain": 1.414
+        }
+      ],
+      "music": {
+        "source": "assets/audio/music.mp3",
+        "lag_ms": 0.0,
+        "residual_correlation": 0.9958,
+        "declared_gain": 0.2735,
+        "fitted_gain": 0.2728
+      },
+      "passed": true,
+      "findings": []
+    }
+  }
+}
