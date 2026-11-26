@@ -1,0 +1,242 @@
+{
+  "title": "三秒落箸",
+  "bpm": 72,
+  "programs": {
+    "lead": 4,
+    "harmony": 24,
+    "bass": 43
+  },
+  "bars": [
+    {
+      "chord": [
+        48,
+        55,
+        60
+      ],
+      "bass": 36,
+      "melody": [
+        [
+          0,
+          1,
+          67
+        ],
+        [
+          2,
+          1.5,
+          64
+        ]
+      ]
+    },
+    {
+      "chord": [
+        48,
+        55,
+        60
+      ],
+      "bass": 36,
+      "melody": []
+    },
+    {
+      "chord": [
+        53,
+        60,
+        65
+      ],
+      "bass": 41,
+      "melody": [
+        [
+          1,
+          1,
+          69
+        ],
+        [
+          3,
+          1,
+          67
+        ]
+      ]
+    },
+    {
+      "chord": [
+        48,
+        55,
+        60
+      ],
+      "bass": 36,
+      "melody": []
+    },
+    {
+      "chord": [
+        46,
+        53,
+        58
+      ],
+      "bass": 34,
+      "melody": [
+        [
+          0,
+          1.5,
+          65
+        ],
+        [
+          2,
+          1,
+          62
+        ]
+      ]
+    },
+    {
+      "chord": [
+        50,
+        57,
+        62
+      ],
+      "bass": 38,
+      "melody": [
+        [
+          1,
+          1,
+          69
+        ],
+        [
+          3,
+          1,
+          65
+        ]
+      ]
+    },
+    {
+      "chord": [
+        48,
+        55,
+        60
+      ],
+      "bass": 36,
+      "melody": [
+        [
+          0,
+          1,
+          67
+        ],
+        [
+          2,
+          1.5,
+          64
+        ]
+      ]
+    },
+    {
+      "chord": [
+        48,
+        55,
+        60
+      ],
+      "bass": 36,
+      "melody": []
+    }
+  ],
+  "pattern": [
+    [
+      0,
+      0
+    ],
+    [
+      1.5,
+      1
+    ],
+    [
+      2.5,
+      2
+    ]
+  ],
+  "form": [
+    {
+      "bars": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "lead": 0.6,
+      "harmony": 0.5,
+      "bass": 0.3
+    },
+    {
+      "bars": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "lead": 0.55,
+      "harmony": 0.46,
+      "bass": 0.36
+    },
+    {
+      "bars": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "lead": 0.48,
+      "harmony": 0.42,
+      "bass": 0.4
+    },
+    {
+      "bars": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "lead": 0.5,
+      "harmony": 0.44,
+      "bass": 0.42
+    },
+    {
+      "bars": [
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "lead": 0.42,
+      "harmony": 0.38,
+      "bass": 0.34
+    }
+  ],
+  "generation": {
+    "provider": "MiniMax",
+    "cli": "mmx text chat",
+    "model": "MiniMax-M3"
+  },
+  "performance": {
+    "renderer": "FluidSynth",
+    "soundfont": "TimGM6mb.sf2",
+    "instruments": "General MIDI, zero-based program numbers",
+    "format": "stereo MP3 44100 Hz, 192 kbps",
+    "score_duration_seconds": 127.8,
+    "arrangement": "4/4. Section bar numbers wrap to the motif length; short notated sections repeat to fill the underscore. Room reverb and a gentle release at the end."
+  }
+}

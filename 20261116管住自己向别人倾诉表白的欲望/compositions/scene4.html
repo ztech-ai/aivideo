@@ -1,0 +1,21 @@
+<template>
+<style>@font-face{font-family:Title;src:url('assets/fonts/title.woff') format('woff');font-weight:700}@font-face{font-family:Body;src:url('assets/fonts/body.woff') format('woff');font-weight:400} #root{position:absolute;inset:0;background:#f3d7ba;overflow:hidden;color:#282535;font-family:Body,sans-serif}
+ .illustration{position:absolute;inset:700px 0 0;overflow:hidden}
+ .plate{width:100%;height:100%;display:block;object-fit:cover;object-position:50% 49%}
+ .mast{position:absolute;left:0;right:0;top:0;height:700px;background:#f3d7ba;}
+ .peek{position:absolute;top:0;left:0;right:0;height:132px;background-image:url('assets/art/04.jpg');background-size:1080px auto;background-position:50% 16%;opacity:0.70}
+ .story-label{position:absolute;left:137px;top:298px;color:#282535;font:400 32px/1.25 Body,sans-serif;letter-spacing:3px;white-space:nowrap}
+ .headline{position:absolute;left:137px;top:356px;margin:0;font:700 77px/1.22 Title,sans-serif;letter-spacing:-1.8px;white-space:nowrap;}
+ .rule{position:absolute;left:0;bottom:0;width:100%;height:8px;background:#282535;transform-origin:left center}
+ </style>
+<div id="root" data-composition-id="scene4" data-width="1080" data-height="1920">
+ <div class="illustration" data-layout-allow-overflow><img id="scene4-picture" class="plate" src="assets/art/04.jpg" alt="拇指离开录音键，屏幕回到安静的对话框。摘句随旁白逐行出现。"></div>
+ <div class="mast"><div class="peek"></div><div id="scene4-tag" class="story-label">原文摘句　/　第24段</div><h1 id="scene4-heading" class="headline">把真诚，真心，真话，<br>留给那些<br>真正爱我们的人。</h1><div id="scene4-rule" class="rule"></div></div>
+</div>
+<script>
+const tl = gsap.timeline({paused:true});
+tl.fromTo("#scene4-picture", {scale:1.105,xPercent:0.5}, {scale:1.02,xPercent:-0.5,duration:6.042,ease:"sine.inOut"},0);
+tl.fromTo("#scene4-rule", {scaleX:0.2}, {scaleX:1,duration:0.62,ease:"power2.out"},0);
+tl.fromTo("#scene4-heading", {x:-8}, {x:0,duration:0.3,ease:"power2.out"},0);
+window.__timelines["scene4"]=tl;
+</script></template>

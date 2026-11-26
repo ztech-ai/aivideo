@@ -1,0 +1,21 @@
+<template>
+<style>@font-face{font-family:Title;src:url('assets/fonts/title.woff') format('woff');font-weight:700}@font-face{font-family:Body;src:url('assets/fonts/body.woff') format('woff');font-weight:400} #root{position:absolute;inset:0;background:#25293a;overflow:hidden;color:#fff0db;font-family:Body,sans-serif}
+ .illustration{position:absolute;inset:605px 0 0;overflow:hidden}
+ .plate{width:100%;height:100%;display:block;object-fit:cover;object-position:50% 50%}
+ .mast{position:absolute;left:0;right:0;top:0;height:605px;background:#25293a;}
+ .peek{position:absolute;top:0;left:0;right:0;height:132px;background-image:url('assets/art/01.jpg');background-size:1080px auto;background-position:50% 80%;opacity:0.70}
+ .story-label{position:absolute;left:137px;top:298px;color:#ffab8d;font:400 32px/1.25 Body,sans-serif;letter-spacing:3px;white-space:nowrap}
+ .headline{position:absolute;left:137px;top:356px;margin:0;font:700 77px/1.22 Title,sans-serif;letter-spacing:-1.8px;white-space:nowrap;}
+ .rule{position:absolute;left:0;bottom:0;width:100%;height:8px;background:#ffab8d;transform-origin:left center}
+ </style>
+<div id="root" data-composition-id="scene1" data-width="1080" data-height="1920">
+ <div class="illustration" data-layout-allow-overflow><img id="scene1-picture" class="plate" src="assets/art/01.jpg" alt="竖屏特写，拇指停在同事群的语音键上。计时停在00:59，手指向上一挪。"></div>
+ <div class="mast"><div class="peek"></div><div id="scene1-tag" class="story-label">说话的分寸　/　深夜</div><h1 id="scene1-heading" class="headline">那条59秒的语音，<br>你会发给谁？</h1><div id="scene1-rule" class="rule"></div></div>
+</div>
+<script>
+const tl = gsap.timeline({paused:true});
+tl.fromTo("#scene1-picture", {scale:1.02,xPercent:-0.6}, {scale:1.105,xPercent:0.55,duration:2.792,ease:"sine.inOut"},0);
+tl.fromTo("#scene1-rule", {scaleX:0.2}, {scaleX:1,duration:0.62,ease:"power2.out"},0);
+tl.fromTo("#scene1-heading", {x:0}, {x:0,duration:0.3,ease:"power2.out"},0);
+window.__timelines["scene1"]=tl;
+</script></template>

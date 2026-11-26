@@ -1,0 +1,21 @@
+<template>
+<style>@font-face{font-family:Title;src:url('assets/fonts/title.woff') format('woff');font-weight:700}@font-face{font-family:Body;src:url('assets/fonts/body.woff') format('woff');font-weight:400} #root{position:absolute;inset:0;background:#25293a;overflow:hidden;color:#fff0db;font-family:Body,sans-serif}
+ .illustration{position:absolute;inset:520px 0 0;overflow:hidden}
+ .plate{width:100%;height:100%;display:block;object-fit:cover;object-position:50% 45%}
+ .mast{position:absolute;left:0;right:0;top:0;height:520px;background:#25293a;}
+ .peek{position:absolute;top:0;left:0;right:0;height:132px;background-image:url('assets/art/05.jpg');background-size:1080px auto;background-position:50% 80%;opacity:0.70}
+ .story-label{position:absolute;left:137px;top:298px;color:#ffab8d;font:400 32px/1.25 Body,sans-serif;letter-spacing:3px;white-space:nowrap}
+ .headline{position:absolute;left:137px;top:356px;margin:0;font:700 76px/1.22 Title,sans-serif;letter-spacing:-1.8px;white-space:nowrap;}
+ .rule{position:absolute;left:0;bottom:0;width:100%;height:8px;background:#ffab8d;transform-origin:left center}
+ </style>
+<div id="root" data-composition-id="scene5" data-width="1080" data-height="1920">
+ <div class="illustration" data-layout-allow-overflow><img id="scene5-picture" class="plate" src="assets/art/05.jpg" alt="切到姐姐的通话页面。另一端，阳台的小灯亮着，刚收进来的衣服还搭在臂弯。"></div>
+ <div class="mast"><div class="peek"></div><div id="scene5-tag" class="story-label">换一个听众</div><h1 id="scene5-heading" class="headline">这次，打给姐姐</h1><div id="scene5-rule" class="rule"></div></div>
+</div>
+<script>
+const tl = gsap.timeline({paused:true});
+tl.fromTo("#scene5-picture", {scale:1.02,xPercent:-0.6}, {scale:1.105,xPercent:0.55,duration:9.958,ease:"sine.inOut"},0);
+tl.fromTo("#scene5-rule", {scaleX:0.2}, {scaleX:1,duration:0.62,ease:"power2.out"},0);
+tl.fromTo("#scene5-heading", {x:-8}, {x:0,duration:0.3,ease:"power2.out"},0);
+window.__timelines["scene5"]=tl;
+</script></template>

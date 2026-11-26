@@ -1,0 +1,8 @@
+{
+  "name": "editorial-short-20261116",
+  "private": true,
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.9.94 preview",
+    "render": "npx --yes hyperframes@0.9.94 render --quality delivery --fps 24 -o 成片.mp4"
+  }
+}
