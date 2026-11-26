@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "code": "timeline_track_too_dense",
+        "severity": "warning",
+        "message": "This HTML file has 14 timed elements. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+        "selector": "[data-composition-id]",
+        "dataAttributes": {},
+        "sourceFile": "20261116管住自己向别人倾诉表白的欲望/compositions/captions.html",
+        "bbox": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "time": 0,
+        "fixHint": "Move coherent scene groups into smaller .html files and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate."
+      }
+    ],
+    "filesScanned": 8
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 1,
+    "infoCount": 0,
+    "findings": [
+      {
+        "selector": "#scene4-heading",
+        "dataAttributes": {},
+        "sourceFile": "compositions/scene4.html",
+        "bbox": {
+          "x": 137,
+          "y": 347,
+          "width": 752,
+          "height": 298.88
+        },
+        "time": 34.354,
+        "rect": {
+          "left": 137,
+          "top": 347,
+          "right": 889,
+          "bottom": 645.88,
+          "width": 752,
+          "height": 298.88
+        },
+        "code": "outside_safe_zone",
+        "severity": "warning",
+        "text": "把真诚，真心，真话，留给那些真正爱我们的人。",
+        "message": "<h1> \"把真诚，真心，真话，留给那些真正爱我们的人。\" is outside the safe area: YouTube Shorts (right edge).",
+        "fixHint": "Move the text inside the safe area, or mark text meant to sit there with data-layout-allow-safe-zone.",
+        "firstSeen": 34.354,
+        "lastSeen": 34.354,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          34.354
+        ]
+      }
+    ],
+    "duration": 58.125,
+    "samples": [
+      0,
+      1.396,
+      10.48,
+      24.751,
+      34.354,
+      42.354,
+      52.729,
+      57.725
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false,
+    "faceCheck": {
+      "ran": true,
+      "candidates": 0,
+      "faces": 0
+    }
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      0,
+      1.396,
+      24.751,
+      42.354,
+      57.725
+    ],
+    "checked": 14,
+    "passed": 14
+  },
+  "craft": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "step": 0.125,
+    "samples": 465
+  },
+  "audio": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "saved": {
+    "id": "6ebd7c7b-96d7-472c-a667-049cd439d492",
+    "revision": "e207d3cc-cce6-4a6b-b5a1-e260fd33e75d",
+    "report": "20261116管住自己向别人倾诉表白的欲望/.hyperframes/artifacts/checks/6ebd7c7b-96d7-472c-a667-049cd439d492.json",
+    "attribution": "recorded-revision"
+  },
+  "_meta": {
+    "version": "0.9.94",
+    "updateAvailable": false
+  }
+}
